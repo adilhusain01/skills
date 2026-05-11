@@ -13,19 +13,17 @@ Instead of generic, hallucinated designs, this skill forces the AI to systematic
 
 ## Core Features
 
-- **Exhaustive Codebase Discovery**: Deep-scans your frontend code to find exactly how logos are imported and used (`/public` assets, inline SVGs, layout files, etc.).
-- **Absolute Brand Fidelity**: Never hallucinates colors or fonts. It extracts exact design tokens from your Tailwind config or global CSS.
-- **Production-Grade Templates**: Outputs standalone HTML/CSS files using Tailwind via CDN, ready to be immediately converted to an image.
-- **Perfect Dimensions**: Automatically targets optimal sizes (e.g., 1200×630 for primary OG, 1200×675 for Twitter).
+* **Exhaustive Codebase Discovery**: Deep-scans your frontend code to find exactly how logos are imported and used (`/public` assets, inline SVGs, layout files, etc.).
+* **Absolute Brand Fidelity**: Never hallucinates colors or fonts. It extracts exact design tokens from your Tailwind config or global CSS.
+* **Production-Grade Templates**: Outputs standalone HTML/CSS files using Tailwind via CDN, ready to be immediately converted to an image.
+* **Perfect Dimensions**: Automatically targets optimal sizes (e.g., 1200×630 for primary OG, 1200×675 for Twitter).
 
 ## How It Works
 
 Once installed, simply ask your agent:
-
-> _"Create an OG image for my application."_
+> *"Create an OG image for my application."*
 
 The AI will then execute a mandatory 5-phase workflow:
-
 1. **Phase 0:** Exhaustive codebase discovery (finding logos and tokens).
 2. **Phase 1:** Strict logo referencing (embedding the true logo via base64 or public URL).
 3. **Phase 2:** Content strategy & architectural hierarchy.
@@ -33,9 +31,15 @@ The AI will then execute a mandatory 5-phase workflow:
 
 ## Installation & Usage
 
-If you're using an AI workspace that supports `SKILL.md` files:
+Install this skill directly from this repository using `skills.sh`:
 
-1. Let your CLI tool initialize it (e.g., via `npx skills add adilhusain01/og-image-create`).
-2. The agent will automatically reference the rules in `/og-image-create/SKILL.md` when you ask for an OG image!
+```bash
+npx skills add adilhusain01/og-image
+```
 
-\
+Once added, the agent will automatically reference the rules in your workspace whenever you ask for an OG image!
+
+---
+<div align="center">
+  <i>Empower your AI to design with <b>context</b> and <b>fidelity</b>.</i>
+</div>
