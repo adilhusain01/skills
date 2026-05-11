@@ -18,7 +18,7 @@ Instead of generic designs, this skill forces the AI to systematically explore y
 Install this specific skill using `skills.sh`:
 
 ```bash
-npx skills add adilhusain01/skill --skill og-image-create
+npx skills add adilhusain01/skills --skill og-image-create
 ```
 
 ## How to Use
