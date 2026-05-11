@@ -1,11 +1,13 @@
 # Adil's AI Skills
 
+[![skills.sh](https://skills.sh/b/adilhusain01/skills)](https://skills.sh/adilhusain01/skills)
+
 A collection of AI agent skills I've created and open-sourced because I use them frequently. These skills enhance AI coding agents (like GitHub Copilot, Cursor, etc.) with specific, production-ready workflows.
 
 ## Available Skills
 
-| Skill                                           | Description                                                                           | Installation Command                                        |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Skill                                           | Description                                                                           | Installation Command                                         |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
 | [**og-image-create**](./skills/og-image-create) | Generate pixel-perfect, brand-accurate Open Graph (OG) images based on your codebase. | `npx skills add adilhusain01/skills --skill og-image-create` |
 
 ## How to Install
